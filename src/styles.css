@@ -1,15 +1,57 @@
-html {
-  box-sizing: border-box;
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+.text {
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+.country-input {
+  padding: 5px;
+  width: 330px;
+  height: 30px;
+  margin-left: 40px;
+  font-size: 25px;
+}
+.list__country {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.country__info--item span {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.countries .item {
+  width: 500px;
+  background-color: lightblue;
+  border: 5px solid green;
+  padding: 15px;
+}
+
+.countries h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.countries .content {
+  display: flex;
+}
+
+.country__info--item {
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.countries .flag {
+  width: 320px;
 }
